@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELTON HOUNNOU ! Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Écran de chargement -->
+    <div class="loader-container">
+        <div class="loader-content">
+            <h2>WELCOME <span class="dots"> <i class="fa-solid fa-sync fa-spin"></i></span></h2>
+            <div class="loader-progress">
+                <div class="progress-bar"></div>
+            </div>
+        </div>
+    </div> 
+
+    <!-- Header avec navigation -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#home">ELTON<span> HOUNNOU</span></a> 
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home" data-translate="nav-home"><i class="fa-solid fa-house fa-fade"></i> Accueil</a></li>
+                    <li><a href="#about" data-translate="nav-about"><i class="fa-solid fa-user fa-fade"></i> A propos</a></li>
+                    <li><a href="#skills" data-translate="nav-skills"><i class="fa-solid fa-star fa-fade"></i> Compétences</a></li>
+                    <li><a href="#projects" data-translate="nav-projects"><i class="fa-solid fa-folder-open fa-fade"></i> Projets</a></li>
+                    <li><a href="#projects-futurs" data-translate="nav-projects"><i class="fa-solid fa-folder-open fa-fade"></i> Projets Futurs</a></li>
+                    <li><a href="#template" data-translate="nav-team"><i class="fa-brands fa-buromobelexperte fa-fade"></i> Templates</a></li>
+                    <li><a href="#testimonials" data-translate="nav-testimonials"><i class="fa-solid fa-comments fa-fade"></i> Témoignages</a></li>
+                    <li><a href="#contact" data-translate="nav-contact"><i class="fa-solid fa-phone fa-fade"></i> Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-toggles">
+                <div class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                </div>
+                <div class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <br> <br>
+
+        <!-- Section Accueil -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content"> <br> <br> <br> <br> <br> <br>
+                    <h1>
+                        <span data-translate="hero-hello">Bonjour, je suis</span> <span class="highlight">N. E. Ronald Bill HOUNNOU</span>
+                    </h1>
+                    <div class="typing-text" data-translate="hero-title">
+                        Développeur FullStack En Formation
+                    </div><br> <br>
+                    <p class="hero-description" data-translate="hero-desc">Je suis un développeur web débutant dans la création de sites web interactifs et dynamiques. J'aime transformer des idées en projets concrets et fonctionnels, en utilisant des technologies modernes comme : HTML, CSS, JavaScript et bien plus encore. J'aspire à toujours apprendre et m'améliorer dans mon domaine.</p>
+                </div>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn primary" data-translate="hero-projects">Voir mes projets</a>
+                        <a href="#contact" class="btn secondary" data-translate="hero-contact">Me contacter</a>
+                    </div>
+            </div>
+        </section> <br> <br> <br> <br>
+
+        <!-- Section À propos -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title" data-translate="about-title">À propos de moi</h2>
+                <div class="about-content">
+                    <div class="about-image">
+                        <div class="image-container">
+                            <img src="/profilepicture.jpg" alt="Photo de profil">
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <h3 data-translate="about-subtitle">Qui suis-je?</h3>
+                        <p data-translate="about-desc-1">
+                            Passionné par le développement web, je suis constamment à la recherche de nouvelles technologies et méthodologies pour créer des expériences web exceptionnelles.
+                        </p>
+                        <p data-translate="about-desc-2">
+                            Je m'efforce de combiner créativité et expertise technique pour transformer des concepts en solutions web fonctionnelles et esthétiques.
+                        </p>
+                        <div class="about-details">
+                            <div class="detail">
+                                <i class="fas fa-user"></i>
+                                <div>
+                                    <h4 data-translate="about-name">Nom</h4>
+                                    <p>N. E. RONALD BILL HOUNNOU</p>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <h4 data-translate="about-email">Email</h4>
+                                    <p>eltonhounnou27@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-location-dot"></i>
+                                <div>
+                                    <h4 data-translate="about-location">Localisation</h4>
+                                    <p>Afrique, Bénin | Abomey-Calavi</p>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-graduation-cap"></i>
+                                <div>
+                                    <h4 data-translate="about-education">Formation</h4>
+                                    <p data-translate="about-education-detail">Développement Web Full Stack</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="/MON CV - HNERB.pdf" target="_blank" class="btn primary" data-translate="about-cv"><i class="fa-solid fa-circle-down"></i> Télécharger mon CV</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Compétences -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title" data-translate="skills-title">Mes compétences</h2>
+                <div class="skills-content">
+                    <div class="skills-text">
+                        <h3 data-translate="skills-subtitle">Technologies que j'apprends</h3>
+                        <p data-translate="skills-desc">
+                            Je maîtrise plusieurs technologies du développement web, avec une expertise particulière en HTML, CSS et JavaScript. Je continue d'explorer et d'apprendre de nouvelles technologies pour améliorer constamment mes compétences dans les temps à venir.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="skills-bars">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <p><strong>HTML</strong></p>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-html" ></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <p><strong>CSS</strong></p>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-css" ></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <p><strong>JAVASCRIPT</strong></p>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-js" ></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <p><strong>UI/UX DESIGN</strong></p>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-ux" ></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <p><strong>PYTHON</strong></p>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-python" ></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <p><strong>C++</strong></p>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-c" ></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <p><strong>PHP</strong></p>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-php" ></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <p><strong>MySQL</strong></p>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-mql" ></div>
+                        </div>
+                    </div>
+                </div> <br><br><br><br><br>
+
+                <div class="skills-content">
+                    <div class="skills-text">
+                        <h3 data-translate="skills-subtitle">Outils Technologiques & Frameworks</h3>
+                        <p data-translate="skills-desc">
+                            Les outils technologique et frameworks que j'utilise.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fa-brands fa-html5 fa-bounce"></i>
+                        <h4>HTML</h4>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-brands fa-css3-alt fa-bounce"></i>
+                        <h4>CSS</h4>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-brands fa-js fa-bounce"></i>
+                        <h4>JAVASCRIPT</h4>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-brands fa-square-git fa-bounce"></i>
+                        <h4>GIT</h4>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-brands fa-github fa-bounce"></i>
+                        <h4>GITHUB</h4>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-solid fa-gear fa-bounce"></i>
+                        <h4>ALGO</h4>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-bootstrap fa-bounce"></i>
+                        <h4>BOOTSTRAP</h4>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-solid fa-wind fa-bounce"></i>
+                        <h4>TAIWINLD.CSS</h4>
+                    </div>
+                     <div class="skill-card">
+                        <i class="fa-brands fa-php fa-bounce"></i>
+                        <h4>PHP</h4>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-solid fa-database fa-bounce"></i>
+                        <h4>MySQL</h4>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Section Projets -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title" data-translate="projects-title">Mes projets</h2>
+                <div class="projects-filter">
+                    <button type="submit" class="filter-btn active" data-filter="all" data-translate="projects-all">Tous</button>
+                    <button type="submit" class="filter-btn" data-filter="web" data-translate="projects-web">Web</button>
+                    <button type="submit" class="filter-btn" data-filter="app" data-translate="projects-app">Applications</button>
+                    <button type="submit" class="filter-btn" data-filter="design" data-translate="projects-design">Design</button>
+                </div>
+                <div class="projects-grid">
+
+                    <div class="project-card" data-category="web">
+                        <div class="project-img">
+                            <img src="/ntfg2.jpg" alt="NFGA">
+                        </div>
+                        <div class="project-content">
+                            <h3 data-translate="project-1-title">NETFLIX GAME AMATEUR</h3>
+                            <p data-translate="project-1-desc">Un jeu de quiz pour amateur des séries et films NETFLIX.</p>
+                            <div class="project-tags">
+                                <span><i class="fab fa-html5"></i></span>
+                                <span><i class="fab fa-css3-alt"></i></span>
+                                <span><i class="fab fa-js"></i></span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://netflix-amator-game.vercel.app/" class="btn small" target="_blank"><i class="fas fa-play-circle"></i> Démo<span data-translate="project-demo"></span></a>
+                                <a href="https://github.com/Elton27-Coder/NETFLIX-AMATOR-GAME" class="btn small secondary" target="_blank"><i class="fas fa-code-branch"></i> <span data-translate="project-code">Code</span></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="project-card" data-category="web">
+                        <div class="project-img">
+                            <img src="/juanita.jpeg" alt="Portfolio Professionnel">
+                        </div>
+                        <div class="project-content">
+                            <h3 data-translate="project-2-title">Portfolio Professionnel</h3>
+                            <p data-translate="project-2-desc">Réalisation d'un Portfolio créatif et professionnel moderne pour des compétences d'éccrivaine.</p>
+                            <div class="project-tags">
+                                <span><i class="fab fa-html5"></i></span>
+                                <span><i class="fab fa-css3-alt"></i></span>
+                                <span><i class="fab fa-js"></i></span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://juanita-amoussou.vercel.app/" class="btn small" target="_blank"><i class="fas fa-play-circle"></i> <span data-translate="project-demo">Démo</span></a>
+                                <a href="https://github.com/REBCDR07/Juanita_Amoussou" class="btn small secondary" target="_blank"><i class="fas fa-code-branch"></i> <span data-translate="project-code">Code</span></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="design">
+                        <div class="project-img">
+                            <img src="/portfoliopjt.jpg" alt="Design Portfolio">
+                        </div>
+                        <div class="project-content">
+                            <h3 data-translate="project-3-title">Portfolio pour Développeur Web Débutant</h3>
+                            <p data-translate="project-3-desc">Un concept de portfolio créatif pour un débutant en développement web professionnel.</p>
+                            <div class="project-tags">
+                                <span><i class="fab fa-html5"></i></span>
+                                <span><i class="fab fa-css3-alt"></i></span>
+                                <span><i class="fab fa-js"></i></span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn small" target="_blank"><i class="fas fa-play-circle"></i> <span data-translate="project-demo">Démo</span></a>
+                                <a href="#" class="btn small secondary" target="_blank"><i class="fas fa-code-branch"></i> <span data-translate="project-code">Code</span></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="web">
+                        <div class="project-img">
+                            <img src="/jnfood1.jpg" alt="Jean Nicolas Food">
+                        </div>
+                        <div class="project-content">
+                            <h3 data-translate="project-4-title">Jean Nicolas Food</h3>
+                            <p data-translate="project-4-desc">Un site minimaliste proposant des patisseries et des norriturres dégustatifs avec un système d'ajout de préférences à un panier et de gestion de commande intégreé pour un restaurant qui vous propose de nombreux mets à votre gout.</p>
+                            <div class="project-tags">
+                                <span><i class="fab fa-html5"></i></span>
+                                <span><i class="fab fa-css3-alt"></i></span>
+                                <span><i class="fab fa-js"></i></span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://verojnf.vercel.app/" class="btn small" target="_blank"><i class="fas fa-play-circle"></i> <span data-translate="project-demo">Démo</span></a>
+                                <a href="https://github.com/REBCDR07/vero_jnf" class="btn small secondary" target="_blank"><i class="fas fa-code-branch"></i> <span data-translate="project-code">Code</span></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="app">
+                        <div class="project-img">
+                            <img src="/fitnessclub.jpg" alt="Fitness Club">
+                        </div>
+                        <div class="project-content">
+                            <h3 data-translate="project-16-title">Fitness Club</h3>
+                            <p data-translate="project-16-desc"> Un site web créatif en version statique conçu pour une salle de Fitness.</p>
+                            <div class="project-tags">
+                                <span><i class="fab fa-html5"></i></span>
+                                <span><i class="fab fa-css3-alt"></i></span>
+                                <span><i class="fab fa-js"></i></span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://fitness-club-by-eltonhounnou.netlify.app/" class="btn small" target="_blank"><i class="fas fa-play-circle"></i> <span data-translate="project-demo">Démo</span></a>
+                                <a href="https://github.com/REBCDR07/salle_de_fitness.git" class="btn small secondary" target="_blank"><i class="fas fa-code-branch"></i> <span data-translate="project-code">Code</span></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="design">
+                        <div class="project-img">
+                            <img src="/calculatrice.jpeg" alt="Design pour calculatrice scientifique">
+                        </div>
+                        <div class="project-content">
+                            <h3 data-translate="project-4-title">Réalisation d'une calculatrice scientifique</h3>
+                            <p data-translate="project-7-desc">Un concept de réalisation d'une calculatrice scientifique web offrant une expérience égale et en parfaite similitude avec une calculatrice scientifique à porté de main.</p>
+                            <div class="project-tags">
+                                <span><i class="fab fa-html5"></i></span>
+                                <span><i class="fab fa-css3-alt"></i></span>
+                                <span><i class="fab fa-js"></i></span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://codepen.io/Reb-Cdr/pen/VYLaqBL" class="btn small" target="_blank"><i class="fas fa-play-circle"></i> <span data-translate="project-demo">Démo</span></a>
+                                <a href="https://github.com/REBCDR07/JOUR-5" class="btn small secondary" target="_blank"><i class="fas fa-code-branch"></i> <span data-translate="project-code">Code</span></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Projets Futurs -->
+        <section id="projects-futurs" class="projects-futurs">
+            <div class="container">
+                <h2 class="section-title" data-translate="projects-title">Mes projets Futurs</h2>
+
+                <div class="projects-grid">
+
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="/facelab.jpg" alt="Facelab">
+                        </div>
+                        <div class="project-content">
+                            <h3 data-translate="project-1-title">FACELAB</h3>
+                            <p data-translate="project-1-desc">Un projet web dynamique de réseau social minimaliste inspiré de Facebook.</p>
+                            
+                        </div>
+                    </div>
+
+
+
+                    <div class="project-card" >
+                        <div class="project-img">
+                            <img src="/rai.jpg" alt="Rai">
+                        </div>
+                        <div class="project-content">
+                            <h3 data-translate="project-2-title">R.A.I : Répondeur Automatique Intéligent</h3>
+                            <p data-translate="project-2-desc">Une application mobile moderne qui permettra aux utilisateurs, de tomber sur le répondeur d'un appelant quand on l'appel et de le laisser un message de manque de réponse comme dans les films.</p>
+                            
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Section Template -->
+        <section id="template" class="template">
+            <main>
+                <div class="content">
+                    <h2 class="section-title">Template</h2>
+                    <div class="current-pastry" id="pastryName"></div>
+                    <div class="description" id="description">
+                        Découvrez nos mes projets en template en cliquant sur le bouton Démo ci-dessous.
+                    </div> <br> <br> <br> <br>
+                    <button type="button" class="btnn">
+                        <a href="https://codepen.io/Reb-Cdr" class="btn small"  target="_blank">
+                            <i class="fa-brands fa-accessible-icon fa-beat"></i> <span data-translate="project-demo">Voir les templates</span>
+                        </a>
+                    </button>
+                </div>
+
+                <div class="stack">
+                    <div class="card" data-pastry="Landing Page " data-description="Un landing page responsive avec des animations au scroll et un formulaire de contact.">
+                        <img src="/t_landing_page.jpg" alt="">
+                    </div>
+                    <div class="card" data-pastry="Todo App" data-description="L'application Todo App pour tous, avec ajout, édition et suppression de taches, avec sauvegarde locale et filtres intelligents, pour organiser ses taches efficacement sans perdre ses données.">
+                        <img src="/t_todo_list_app.jpg" alt="" >
+                    </div>
+                    <div class="card" data-pastry="API Weather Dashboard" data-description=" Dashboard météo interactif, basé sur l’API OpenWeather, avec prévisions, géolocalisation et animations CSS.">
+                        <img src="/t_api_weather.jpeg" alt="" >
+                    </div>
+                    <div class="card" data-pastry="CSS Grid Master Layout" data-description=" CSS Grid, avec sidebar, dark/light mode et zones responsives.">
+                        <img src="/t_css_grid.jpeg" alt="">
+                    </div>
+                    <div class="card" data-pastry="JavaScript Calculator" data-description=" Une calculatrice dynamique avec historique et fonctions avancées! Support clavier, mode scientifique, animations fluides et interface intuitive.">
+                        <img src="/t_calculator.jpg" alt="">
+                    </div>
+                    <div class="card" data-pastry="Image Gallery avec Lightbox" data-description=" Lightbox personnalisée, lazy loading et filtres dynamiques pour organiser le contenu visuel.">
+                        <img src="/t_image_gallery.jpg" alt="" >
+                    </div>
+                    <div class="card" data-pastry="Form Validation Master" data-description="Formulaire multi-étapes, progress bar et animation des erreurs pour une UX fluide.">
+                        <img src="/t_formulaire_multi_etapes.jpeg" alt="">
+                    </div>
+                    <div class="card" data-pastry="Quiz App Interactif" data-description="Un quiz addictif et engageant!, Score dynamique & Timer en temps réel, Questions aléatoires pour chaque session, Résultats détaillés et partage social.">
+                        <img src="/t_interactive_quiz.jpg" alt="">
+
+                    </div>
+                    <div class="card" data-pastry="Music Player Interface" data-description=" Spotify en version web interactive!, Playlist avec visualiseur audio dynamique, Contrôles avancés (lecture, pause, volume), Équaliseur visuel pour une immersion totale.">
+                        <img src="/t_music_player_interface.jpg" alt="">
+
+                    </div>
+                    <div class="card" data-pastry="Data Visualization Dashboard" data-description="Graphiques interactifs!, Visualisation dynamique avec Chart.js, Filtres en temps réel pour l’analyse de données, Export en PDF pour une présentation pro.">
+                        <img src="/t_dashbord_viz.jpeg" alt="">
+
+                    </div>
+                    <div class="card" data-pastry="Infinite Scroll Gallery" data-description=" Une galerie d’images avec scroll infini, comme Instagram!, Chargement dynamique via API Unsplash, Système de favoris et catégories, Masonry layout pour un rendu esthétique.">
+                        <img src="/t_infinity_scroll.jpg" alt="">
+
+                    </div>
+                    <div class="card" data-pastry="3D Card" data-description="Une collection de cartes 3D représentant différents réseaux sociaux (Facebook, Twitter, TikTok, Instagram, LinkedIn, CodePen, GitHub). Chaque carte affiche l'icône du réseau, son nom et une courte description. Les cartes ont un effet 3D avec une rotation légère qui crée une impression de profondeur. Au survol, les cartes s'animent avec des transformations plus prononcées et changent de couleur selon l'identité visuelle du réseau social.">
+                        <img src="/t_3D.jpeg" alt="">
+
+                    </div>
+                    <div class="card" data-pastry="Animated SVG Icons" data-description="Présentation d'une collection d’animations de loaders en CSS et SVG, avec un style moderne et coloré.Différents types de loaders (spinner, barres, anneaux, cube 3D, etc.), chacun dans une carte stylée. On y trouve aussi des boutons pour contrôler la vitesse des animations (lent, normal, rapide) ou les mettre en pause. Responsivité, avec des effets de survol et des optimisations pour de meilleures performances.">
+                        <img src="/t_svg_icons.jpeg" alt="">
+
+                    </div>
+                    <div class="card" data-pastry="Parallax Story" data-description="Une page web interactive qui raconte une histoire en 5 chapitres, avec un effet parallax et des animations visuelles. Chaque chapitre occupe tout l’écran, avec un fond coloré, du texte stylisé, et des éléments flottants (étoiles, particules, formes géométriques) qui bougent selon le scroll et la souris.">
+                        <img src="/t_parallax.jpeg" alt="">
+
+                    </div>
+                    <div class="card" data-pastry="Cards Tech Animated " data-description="Des cartes animées.">
+                        <img src="/t_cards_techs.jpeg" alt="">
+
+                    </div>
+                    <div class="card" data-pastry="Loader Animated Multi-Icôns" data-description="Un loader avec des icônes animés.">
+                        <img src="/t_loader.jpeg" alt="">
+
+                    </div><div class="card" data-pastry="Full Cube Date Time" data-description=" Une horloge futuriste et interactive parfaite pour un fond d'écran ou une démo, qui affiche la date et l'heure en temps réel sous forme de cubes 3D animés avec un effet de neige.">
+                        <img src="/t_cube_3d.jpeg" alt="">
+
+                </div>
+            </main>
+        </section>
+
+        <!-- Section Témoignages -->
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <h2 class="section-title" data-translate="testimonials-title">Témoignages</h2>
+                <div class="testimonial-slider">
+                    <div class="testimonial-container">
+                        <div class="testimonial">
+                            <div class="testimonial-text">
+                                <i class="fas fa-quote-left"></i>
+                                <p data-translate="testimonial-1-text">Hello tout le monde ! Si vous cherchez un portfolio professionnel, bien designé et adapté à votre profil, je vous recommande vivement Elton Hounnou. Il m’a fait un super travail, propre et efficace. N’hésitez pas à le contacter si vous voulez booster vos chances avec un portfolio qui fait la différence !</p>
+                                <i class="fas fa-quote-right"></i>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="/testimonial_juanita.jpg" alt="Client 1">
+                                <div>
+                                    <h4>Juanita Océane Fènou Amoussou</h4>
+                                    <p data-translate="testimonial-1-role">Etudiante en Réseaux Informatique et Télécommunications</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-container">
+                        <div class="testimonial">
+                            <div class="testimonial-text">
+                                <i class="fas fa-quote-left"></i>
+                                <p data-translate="testimonial-2-text">Voudriez-vous avoir une image professionnelle sur le web ? Vous êtes à la bonne adresse ! Je vous recommande ce mec, car il sait y faire.</p>
+                                <i class="fas fa-quote-right"></i>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="/testimonial3.jpg" alt="Client 2">
+                                <div>
+                                    <h4>Bill Dogemy</h4>
+                                    <p data-translate="testimonial-2-role">Agriculteur Technique</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-container">
+                        <div class="testimonial">
+                            <div class="testimonial-text">
+                                <i class="fas fa-quote-left"></i>
+                                <p data-translate="testimonial-3-text">Le potentiel y est avec une jointure soignée du travail. Elton  a su êtes à la hauteur de tout notre attente pour sa contribution aux réalisations des projets de notre entreprise. Nous vous le recommandons vivement.</p>
+                                <i class="fas fa-quote-right"></i>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="/testimonial2.jpg" alt="Client 3">
+                                <div>
+                                    <h4>Jean-Claude Charles</h4>
+                                    <p data-translate="testimonial-3-role">Directeur d'entreprise</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-controls">
+                        <button type="submit" class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                        <div class="testimonial-dots">
+                            <span class="dot active"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
+                        <button type="submit" class="next-btn"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Contact -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title" data-translate="contact-title">Me contacter</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3 data-translate="contact-info-title">Informations de contact</h3>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <h4 data-translate="contact-email">Email</h4>
+                                    <p>eltonhounnou27@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <h4 data-translate="contact-phone">Téléphone</h4>
+                                    <p>+229 01 40 66 33 49</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-location-dot"></i>
+                                <div>
+                                    <h4 data-translate="contact-location">Localisation</h4>
+                                    <p>Afrique, Bénin / Abomey-Calavi</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-social">
+                            <a href="https://www.linkedin.com/in/elton-ronald-bill-hounnou-7a7a67322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/REBCDR07" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://github.com/Elton27-Coder" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://codepen.io/Elton-Hounnou" target="_blank"><i class="fab fa-codepen"></i></a>
+                            <a href="https://www.facebook.com/eltonhounnou/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://t.me/eltonhounnou27" target="_blank"><i class="fab fa-telegram"></i></a>
+                            <a href="https:/wa.me/22940663349" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <h3 data-translate="contact-form-title">Envoyez-moi un message</h3>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" required>
+                                <label for="name" data-translate="contact-name">Nom</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" required>
+                                <label for="email" data-translate="contact-email-address">Adresse email</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="subject" name="subject" required>
+                                <label for="subject" data-translate="contact-subject">Sujet</label>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" required></textarea>
+                                <label for="message" data-translate="contact-message">Message</label>
+                            </div>
+                            <button type="submit" class="btn primary" data-translate="contact-send"><i class="fas fa-paper-plane"></i>Envoyer</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#home">Reb<span>Cdr</span></a>
+                    <p data-translate="footer-tagline">Développeur Web FullStack</p>
+                </div>
+                <div class="footer-links">
+                    <h3 data-translate="footer-links">Liens Rapides</h3>
+                    <ul>
+                        <li><a href="#home" data-translate="nav-home">Accueil</a></li>
+                        <li><a href="#about" data-translate="nav-about">À propos</a></li>
+                        <li><a href="#skills" data-translate="nav-skills">Compétences</a></li>
+                        <li><a href="#projects" data-translate="nav-projects">Projets</a></li>
+                        <li><a href="#contact" data-translate="nav-contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3 data-translate="footer-newsletter">Newsletter</h3>
+                    <p data-translate="footer-newsletter-text">Envoyez-moi un message sur WhatsApp pour recevoir mes nouveaux projets à venir</p>
+                    <form id="newsletterForm">
+                        <input type="email" placeholder="Votre email" required>
+                        <button type="submit" data-translate="footer-subscribe"><i class="fas fa-user-plus"></i> S'abonner</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 N. E. RONALD BILL HOUNNOU |<span data-translate="footer-rights"> Tous droits réservés</span>.</p>
+            </div>
+        </div>
+        <button type="button" id="scrollToTop" aria-label="Retour en haut">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </footer>
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
